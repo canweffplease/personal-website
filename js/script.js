@@ -18,9 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
+
             if (targetId === "#about") {
                 window.scrollTo({
                     top: 0,
+                    behavior: 'smooth'
+                });
+            } else if (targetId === "#contact") {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
                     behavior: 'smooth'
                 });
             } else {
