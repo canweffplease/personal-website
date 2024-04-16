@@ -72,7 +72,6 @@ section {
 }
 
 #self {
-    padding-bottom: 30px;
     clip-path: circle();
     width: 35%;
     height: 35%;
