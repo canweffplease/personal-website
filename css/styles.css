@@ -49,10 +49,33 @@ section {
     min-height: 75vh;
 }
 
+#skills {
+    padding: 50px 20px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+#skills h2, #skills h3 {
+    padding-left: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
 #self {
+    padding-bottom: 30px;
     clip-path: circle();
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
 }
 
 i {
@@ -68,4 +91,67 @@ i:hover {
     padding: 20 0 50 0px;
     width: 20%;
     height: 20%;
+}
+
+#gtri {
+    width: 20%;
+    height: 20%;
+    border-radius: 5%;
+}
+
+h2 {
+    padding: 50px;
+}
+
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 1rem;
+}
+
+.stars[data-stars="5"]:after {
+    content: "★★★★★";
+}
+
+.stars[data-stars="4"]:after {
+    content: "★★★★☆";
+}
+
+.stars[data-stars="3"]:after {
+    content: "★★★☆☆";
+}
+
+.stars[data-stars="2"]:after {
+    content: "★★☆☆☆";
+}
+
+.stars[data-stars="1"]:after {
+    content: "★☆☆☆☆";
+}
+
+.stars[data-stars="0"]:after {
+    content: "☆☆☆☆☆";
 }
