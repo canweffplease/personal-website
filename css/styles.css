@@ -19,7 +19,7 @@ header, footer {
 }
 
 footer {
-    font-size: 10em;
+    font-size: 5.9em;
     background-color: #212529;
 }
 
@@ -56,7 +56,7 @@ section {
 }
 
 i {
-    padding: 0 100px;
+    padding: 0 50px;
     color: #f8f9fa;
 }
 
@@ -65,6 +65,7 @@ i:hover {
 }
 
 #ksu {
+    padding: 20 0 50 0px;
     width: 20%;
     height: 20%;
 }
