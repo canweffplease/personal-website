@@ -71,6 +71,10 @@ section {
     margin-bottom: 10px;
 }
 
+#skills p {
+    margin-left: 40px;
+}
+
 #self {
     clip-path: circle();
     width: 35%;

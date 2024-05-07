@@ -1,0 +1,2 @@
+- guitar tuner that actually allows you to do different guitar tunings other than standard e 
+- computer vision cat camera to see which of my 2 cats is eating at what times 
